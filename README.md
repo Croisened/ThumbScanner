@@ -1,4 +1,4 @@
-Corona Shell Project
+Thumb Scanner
 Created by Nathanial Ryan - Fully Croisened
 
 

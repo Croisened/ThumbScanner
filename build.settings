@@ -1,0 +1,52 @@
+settings =
+{
+
+    android =
+    {
+      versionCode = "1"
+    },
+
+    androidPermissions =
+    {
+      "android.permission.INTERNET",
+     },
+
+	orientation =
+	{
+		default = "portrait",
+		supported =
+		{
+		"portrait",
+		},
+
+	},
+
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = false,
+                        UIApplicationExitsOnSuspend = true,
+                        CFBundleIconFile = "Icon.png",
+                        --http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html
+						CFBundleIconFiles = {
+                         "Icon.png", --57x57  (iPhone and iPod touch application icon)
+                         "Icon@2x.png", --114x114  (RETINA iPhone and iPod touch application icon)
+                         "Icon-iPad.png", --72x72 (iPad 1 application icon)
+			             "Icon-72.png", --72X72 (RETINA iPad 2 OLD name)
+                         "Icon-iPad@2x.png", --144x144 (RETINA iPad 3)
+                         "Icon-Small.png", --29x29 (iPhone and iPod touch Spotlight search results and Settings icon)
+                         "Icon-Small@2x.png", --58x58 (RETINA iPhone and iPod touch Spotlight search results and Settings icon)
+                         "Icon-Small-50.png", --50x50 (iPad 1 Spotlight search results and Settings icon)
+                         "Icon-Small-50@2x.png", --100x100 (RETINA iPads Spotlight search results and Settings icon)
+						},
+                },
+                UIAppFonts = 
+                        {
+                                "customfont.ttf"
+                        },	                
+        }
+
+
+
+}

@@ -52,7 +52,7 @@ end
 function scene:createScene( event )
 	local screenGroup = self.view
 	
-	image = display.newImage( "images/bg.jpg" )
+	image = display.newImage( "images/bg.jpg", true )
 	screenGroup:insert( image )
 	
 	text1 = display.newText( "Welcome", 0, 0, native.systemFontBold, 32 )
@@ -80,8 +80,8 @@ function scene:createScene( event )
     --]]
 
     local homeButton = widget.newButton{
-    	default = "images/scene1button.png",
-	    over = "images/scene1buttonover.png",
+    	defaultFile = "images/scene1button.png",
+	    overFile = "images/scene1buttonover.png",
 	    onRelease = moveToScene,
     }
     homeButton.x = display.contentWidth / 2

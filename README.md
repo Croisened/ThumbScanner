@@ -2,6 +2,10 @@ Thumb Scanner
 Created by Nathanial Ryan - Fully Croisened
 
 
+**Updated for v2 of Wdget library and corrected background sizing for Android
+
+
+
 See the blog post for information on how this works, this file will explain all the files in the project...
 
 

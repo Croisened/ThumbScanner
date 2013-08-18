@@ -127,31 +127,31 @@ end
 
 	local SetupNumPad = function()
 
-      button1 = widget.newButton{default = "numpad/button1.png",over = "numpad/button1over.png",onRelease = enterDigit,}
+      button1 = widget.newButton{defaultFile = "numpad/button1.png",overFile = "numpad/button1over.png",onRelease = enterDigit,}
 	  button1.x = 160; button1.y = 260; button1.id = 1; screenGroup:insert(button1);
 
-      button2 = widget.newButton{default = "numpad/button2.png",over = "numpad/button2over.png",onRelease = enterDigit,}
+      button2 = widget.newButton{defaultFile = "numpad/button2.png",overFile = "numpad/button2over.png",onRelease = enterDigit,}
 	  button2.x = 320; button2.y = 260; button2.id = 2; screenGroup:insert(button2);
 
-      button3 = widget.newButton{default = "numpad/button3.png",over = "numpad/button3over.png",onRelease = enterDigit,}
+      button3 = widget.newButton{defaultFile = "numpad/button3.png",overFile = "numpad/button3over.png",onRelease = enterDigit,}
 	  button3.x = 480; button3.y = 260; button3.id = 3; screenGroup:insert(button3);
 
-      button4 = widget.newButton{default = "numpad/button4.png",over = "numpad/button4over.png",onRelease = enterDigit,}
+      button4 = widget.newButton{defaultFile = "numpad/button4.png",overFile = "numpad/button4over.png",onRelease = enterDigit,}
 	  button4.x = 160; button4.y = 385; button4.id = 4; screenGroup:insert(button4);
 
-      button5 = widget.newButton{default = "numpad/button5.png",over = "numpad/button5over.png",onRelease = enterDigit,}
+      button5 = widget.newButton{defaultFile = "numpad/button5.png",overFile = "numpad/button5over.png",onRelease = enterDigit,}
 	  button5.x = 320; button5.y = 385; button5.id = 5; screenGroup:insert(button5);
 
-      button6 = widget.newButton{default = "numpad/button6.png",over = "numpad/button6over.png",onRelease = enterDigit,}
+      button6 = widget.newButton{defaultFile = "numpad/button6.png",overFile = "numpad/button6over.png",onRelease = enterDigit,}
 	  button6.x = 480; button6.y = 385; button6.id = 6; screenGroup:insert(button6);
 
-      button7 = widget.newButton{default = "numpad/button7.png",over = "numpad/button7over.png",onRelease = enterDigit,}
+      button7 = widget.newButton{defaultFile = "numpad/button7.png",overFile = "numpad/button7over.png",onRelease = enterDigit,}
 	  button7.x = 160; button7.y = 510; button7.id = 7; screenGroup:insert(button7);
 
-      button8 = widget.newButton{default = "numpad/button8.png",over = "numpad/button8over.png",onRelease = enterDigit,}
+      button8 = widget.newButton{defaultFile = "numpad/button8.png",overFile = "numpad/button8over.png",onRelease = enterDigit,}
 	  button8.x = 320; button8.y = 510; button8.id = 8; screenGroup:insert(button8);
 
-      button9 = widget.newButton{default = "numpad/button9.png",over = "numpad/button9over.png",onRelease = enterDigit,}
+      button9 = widget.newButton{defaultFile = "numpad/button9.png",overFile = "numpad/button9over.png",onRelease = enterDigit,}
 	  button9.x = 480; button9.y = 510; button9.id = 9; screenGroup:insert(button9);
 
 	end
@@ -193,8 +193,8 @@ function scene:createScene( event )
 
 
     scannerButton = widget.newButton{
-    	default = "numpad/scanbutton.jpg",
-	    over = "numpad/scanbuttonover.jpg",
+    	defaultFile = "numpad/scanbutton.jpg",
+	    overFile = "numpad/scanbuttonover.jpg",
 	    onRelease = runScan,
     }
 	scannerButton.x = display.contentWidth / 2
